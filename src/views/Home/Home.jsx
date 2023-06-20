@@ -8,7 +8,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <hr />
       <div className="container align-items-center d-flex h-80">
         <div className="row align-items-center">
           <div className="col">

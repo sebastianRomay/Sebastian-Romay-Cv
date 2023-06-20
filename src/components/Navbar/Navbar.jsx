@@ -1,13 +1,14 @@
 import React from 'react';
 import './Navbar.css';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark mt-3">
     <div class="container align-items-center">
-      <a class="navbar-brand" href="#">
+      <NavLink class="navbar-brand" to='/'>
         Sebastian Romay
-      </a>
+      </NavLink>
       <button
         class="navbar-toggler"
         type="button"
@@ -22,19 +23,24 @@ const Navbar = () => {
       <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">
+            <NavLink class="nav-link" aria-current="page" to='/SobreMi'>
               Sobre mi
-            </a>
+            </NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <NavLink class="nav-link" to='/Experiencia'>
               Experiencia
-            </a>
+            </NavLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <NavLink class="nav-link" to='/Blog'>
               Blog
-            </a>
+            </NavLink>
+          </li>
+          <li class="nav-item">
+            <NavLink class="nav-link" to='/Contacto'>
+              Contacto
+            </NavLink>
           </li>
         </ul>
       </div>
