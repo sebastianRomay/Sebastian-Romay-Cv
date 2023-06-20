@@ -1,0 +1,15 @@
+.bi {
+    color: #aaa;
+}
+
+.bi-github:hover {
+    color: #fff;
+}
+
+.bi-linkedin:hover {
+    color: #0077b5;
+}
+
+.bi-instagram:hover {
+    color: #C13584;
+}

@@ -1,0 +1,13 @@
+.h-80 {
+    height: 80vh;
+}
+
+.text-color{
+    color: #aaa;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+}
