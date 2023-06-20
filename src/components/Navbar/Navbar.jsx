@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark mt-3">
     <div class="container align-items-center">
-      <NavLink class="navbar-brand" to='/'>
+      <NavLink className="navbar-brand" to='/'>
         Sebastian Romay
       </NavLink>
       <button
@@ -23,22 +23,22 @@ const Navbar = () => {
       <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <NavLink class="nav-link" aria-current="page" to='/SobreMi'>
+            <NavLink className="nav-link" aria-current="page" to='/SobreMi'>
               Sobre mi
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink class="nav-link" to='/Experiencia'>
+            <NavLink className="nav-link" to='/Experiencia'>
               Experiencia
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink class="nav-link" to='/Blog'>
+            <NavLink className="nav-link" to='/Blog'>
               Blog
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink class="nav-link" to='/Contacto'>
+            <NavLink className="nav-link" to='/Contacto'>
               Contacto
             </NavLink>
           </li>
