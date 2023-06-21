@@ -33,7 +33,7 @@ const DescripcionTrabajo = () => {
                     <img src={logoEmpresa} alt="" width='70px' height='70px'/>
                 </div>
                 <div className="col-10">
-                    <h3 className="text-color">Software Engineer</h3>
+                    <h3 className="title fs-3">Software Engineer</h3>
                     <p className="text-color">Fk Tech | Mayo 2022 - Presente</p>
                         <ul className="row list-unstyled text-color">
 
@@ -81,7 +81,7 @@ const DescripcionTrabajo = () => {
                     <img src={logoCoder} alt="" width='70px' height='70px'/>
                 </div>
                 <div className="col-10">
-                    <h3 className="text-color">Profesor de Desarrollo Web</h3>
+                    <h3 className="title fs-3">Profesor de Desarrollo Web</h3>
                     <p className="text-color">CoderHouse | Enero 2023 - Presente</p>
                         <ul className="row list-unstyled text-color">
 
@@ -129,7 +129,7 @@ const DescripcionTrabajo = () => {
                     <img src={logoCoder} alt="" width='70px' height='70px'/>
                 </div>
                 <div className="col-10">
-                    <h3 className="text-color">Tutor Desarrollo Web & Javascript</h3>
+                    <h3 className="title fs-3">Tutor Desarrollo Web & Javascript</h3>
                     <p className="text-color">CoderHouse | Junio 2021 - Presente</p>
                         <ul className="row list-unstyled text-color">
 

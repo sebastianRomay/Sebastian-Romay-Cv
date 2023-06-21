@@ -1,14 +1,16 @@
-import React from 'react';
+// Dependencias
+import React, {useState, useEffect} from 'react';
+
+// Componentes
 import Navbar from '../../components/Navbar/Navbar';
-import Loader from '../../components/Loader/Loader';
 import Footer from '../../components/Footer/Footer';
 
 const SobreMi = () => {
+
   return (
     <>
-      {/* <Loader /> */}
       <Navbar />
-      <div className="container h-80">
+      <div className="container h-80 d-flex align-items-center">
         <div className="row">
           <div className="col">
             <h1 className="text-center title mt-3">Sobre Mi</h1>

@@ -1,11 +1,29 @@
-import React from "react";
+// Dependencias
+import React, {useState, useEffect} from "react";
+
+// Componentes
 import Navbar from "../../components/Navbar/Navbar";
 import Avatar from "../../components/Avatar/Avatar";
-import "./Home.css";
 import Footer from "../../components/Footer/Footer";
+import Loader from "../../components/Loader/Loader";
+
+// Estilos
+import "./Home.css";
 
 const Home = () => {
+
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false)
+    }, 400)
+  }, [])
+
   return (
+    loading ? 
+    <Loader />
+    :
     <>
       <Navbar />
       <div className="container align-items-center d-flex h-80">
