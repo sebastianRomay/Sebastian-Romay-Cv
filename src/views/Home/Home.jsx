@@ -37,9 +37,9 @@ const Home = () => {
               {" "}
               Desarrollador Web Front End - Profesor de Desarrollo Web <br />{" "}
               <br />
-              En mi sitio encontraras proyectos en los que he trabajado y podras ver mi experiencia laboral. 
-              Además, conoceras más sobre mis habilidades tecnicas y mi perfomance como profesor.
-              También puedes encontrar recursos útiles, tutoriales y artículos en el blog relacionados con el desarrollo web.
+              En mi sitio encontraras mi experiencia laboral y podras ver proyectos en los que he trabajado. 
+              Además, conoceras más sobre mis habilidades tecnicas y mi formacion.
+              También puedes encontrar recursos útiles y tutoriales relacionados con el desarrollo web.
             </p>
           </div>
         </div>

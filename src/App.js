@@ -1,8 +1,8 @@
 import Home from './views/Home/Home';
-import SobreMi from './views/SobreMi/SobreMi';
+import Formacion from './views/Formacion/Formacion';
 import Contacto from './views/Contacto/Contacto';
 import Experiencia from './views/Experiencia/Experiencia';
-import Blog from './views/Blog/Blog';
+import Tutoriales from './views/Tutoriales/Tutoriales';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -11,10 +11,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/sobremi" element={<SobreMi/>} />
+        <Route path="/formacion" element={<Formacion/>} />
         <Route path="/contacto" element={<Contacto/>} />
         <Route path="/experiencia" element={<Experiencia/>} />
-        <Route path="/blog" element={<Blog/>} />
+        <Route path="/tutoriales" element={<Tutoriales/>} />
       </Routes>
     </Router>
   );

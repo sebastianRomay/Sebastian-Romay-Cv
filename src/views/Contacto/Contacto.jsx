@@ -1,5 +1,5 @@
 // Dependencias
-import React, {useState, useEffect} from "react";
+import React from "react";
 
 // Componentes
 import Navbar from "../../components/Navbar/Navbar";

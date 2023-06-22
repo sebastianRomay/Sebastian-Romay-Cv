@@ -23,22 +23,22 @@ const Navbar = () => {
       <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
         <ul class="navbar-nav ">
           <li class="nav-item">
-            <NavLink className="nav-link" aria-current="page" to='/SobreMi'>
-              Sobre mi
+            <NavLink className="nav-link" aria-current="page" to='/formacion'>
+              Formacion
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="nav-link" to='/Experiencia'>
+            <NavLink className="nav-link" to='/experiencia'>
               Experiencia
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="nav-link" to='/Blog'>
-              Blog
+            <NavLink className="nav-link" to='/tutoriales'>
+            Tutoriales
             </NavLink>
           </li>
           <li class="nav-item">
-            <NavLink className="nav-link" to='/Contacto'>
+            <NavLink className="nav-link" to='/contacto'>
               Contacto
             </NavLink>
           </li>

@@ -7,7 +7,7 @@ import Footer from "../../components/Footer/Footer";
 import Card from "../../components/Card/Card";
 
 
-const Blog = () => {
+const Tutoriales = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Blog = () => {
     :
     <>
       <Navbar />
-        <h1 className="title text-center mt-3 mb-3">Articulos y Tutoriales</h1>
+        <h1 className="title text-center mt-3 mb-3">Guias y Tutoriales</h1>
         <div className="container h-80">
           <div className="row">
             <div className="col">
@@ -35,4 +35,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Tutoriales
