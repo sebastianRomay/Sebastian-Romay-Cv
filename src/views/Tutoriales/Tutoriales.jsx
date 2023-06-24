@@ -42,7 +42,7 @@ const Tutoriales = () => {
       <Navbar />
       <h1 className="title text-center mt-3 mb-3">Tutoriales</h1>
       <div className="container h-80">
-        <div className="row">
+        <div className="row gap-4">
             {data.map((item, index) => {
               return (
                 <Card data={item} id={index+1}/>
