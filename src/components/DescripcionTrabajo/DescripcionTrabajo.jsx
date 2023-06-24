@@ -147,9 +147,9 @@ const DescripcionTrabajo = () => {
   return (
     <>
         <div className="container">
-            <CardDescripcion expEmpresa={expFkTech} />
-            <CardDescripcion expEmpresa={expProfe} />
-            <CardDescripcion expEmpresa={expTutor} />
+            <CardDescripcion data={expFkTech} />
+            <CardDescripcion data={expProfe} />
+            <CardDescripcion data={expTutor} />
         </div>
     </>
   )

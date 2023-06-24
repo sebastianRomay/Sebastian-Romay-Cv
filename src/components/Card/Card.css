@@ -1,4 +1,33 @@
-.card-w {
+.card-styles {
     width: 18rem;
-    background-color: #aaa;
+    border: 1px solid #aaa;
+    background-color: #010108;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-styles:hover{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.692);
+}
+
+.text-color-dark {
+    color: white;
+}
+
+.text-color-grey {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.btn-outline-light {
+    color: #aaa;
+    border-color: #aaa;
+}
+
+.card-text-img {
+    font-size: 14px;
+    position: absolute;
+    color: white;
+    top: 46%;
+    right: 2%;
+    padding: 0 5px;
 }

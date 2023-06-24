@@ -23,6 +23,7 @@ import logoNucba from '../../img/logoNucba.jfif';
 import logoEdIt from '../../img/logoEdIT.jfif';
 import logoExpress from '../../img/Iconos/express-svgrepo-com.svg';
 import logoMongo from '../../img/Iconos/mongodb-svgrepo-com.svg';
+import logoFirebase from '../../img/Iconos/firebase-svgrepo-com.svg';
 
 
 const Formacion = () => {
@@ -44,7 +45,12 @@ const Formacion = () => {
       {
         titulo: 'JavaScript',
         img: logoJS
-      }]
+      },
+      {
+        titulo: 'Firebase',
+        img: logoFirebase
+      }
+    ]
     }
 
   const cursoFrontEnd = {
@@ -123,9 +129,9 @@ const Formacion = () => {
     <>
       <Navbar />
       <div className="container mt-4">
-        <CardDescripcion expEmpresa={cursoFrontEnd} />
-        <CardDescripcion expEmpresa={cursoEdIt} />
-        <CardDescripcion expEmpresa={cursoReact} />
+        <CardDescripcion data={cursoFrontEnd} />
+        <CardDescripcion data={cursoEdIt} />
+        <CardDescripcion data={cursoReact} />
       </div>
       <Footer />
     </>
