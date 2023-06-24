@@ -18,7 +18,7 @@ const Card = ({data, id}) => {
         <p class="card-text fs-01 text-color-grey">
            {data.fecha}
         </p>
-        <NavLink to={`/tutoriales/${id}/${data.titulo.toLowerCase().replace(/\s/g, '-')}`}className="btn btn-outline-light">
+        <NavLink to={`/tutoriales/${data.titulo.toLowerCase().replace(/\s/g, '-')}/${id}`}className="btn btn-outline-light">
           Leer mas
         </NavLink>
       </div>

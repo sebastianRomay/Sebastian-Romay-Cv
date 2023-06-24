@@ -19,40 +19,6 @@ const CardDescripcion = ({data}) => {
                       </li>
                      )
                 })}
-                {/* <li className='col-4 mt-3'>
-                    <img src={logoReact} alt="" width='50px' height='50px' className='mx-3'/>
-                    React JS
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoConfluence} alt="" width='50px' height='50px' className='mx-3'/>
-                    Confluence
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoGitlab} alt="" width='50px' height='50px' className='mx-3'/>
-                    Gitlab
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoJira} alt="" width='50px' height='50px' className='mx-3'/>
-                    Jira
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoMui} alt="" width='50px' height='50px' className='mx-3'/>
-                    Material UI
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoNode} alt="" width='50px' height='50px' className='mx-3'/>
-                    Node JS
-                </li>
-
-                <li className='col-4 mt-3'>
-                    <img src={logoPSQL} alt="" width='50px' height='50px' className='mx-3'/>
-                    PostgreSQL
-                </li> */}
             </ul>
             <hr/>
     </div>

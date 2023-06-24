@@ -1,5 +1,6 @@
 // Dependencias
 import React, { useState, useEffect } from "react";
+import axios from "axios";
 
 // Componentes
 import Loader from "../../components/Loader/Loader";
@@ -13,29 +14,24 @@ import portadaFavicon from "../../img/favicon.png";
 const Tutoriales = () => {
   const [loading, setLoading] = useState(true);
 
+  const [data, setData] = useState([])
+
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 400);
+    fetchData();
   }, []);
 
-  // Datos para pasar a la card
-  const data = [
-    {titulo: "Poner Favicon en tu sitio web",
-    fecha: "Junio 23, 2023",
-    categoria: "HTML",
-    colorCategoria: "#e34c26",
-    imagen: portadaFavicon,
-  },
+  const fetchData = async () => {
+    try {
+      const response = await axios.get('http://localhost:3001/tutoriales');
+      // console.log(response)
+      setData(response.data);
+    } catch (error) {
+      console.log('Error:', error);
+    }
+  };
+  
 
-    {titulo: "Menu Hamburguesa con CSS",
-    fecha: "Junio 21, 2023",
-    categoria: "CSS",
-    colorCategoria: "#264de4",
-    imagen: portadaFavicon},
-  ]
-
-  return loading ? (
+  return !data ? (
     <Loader />
   ) : (
     <>
